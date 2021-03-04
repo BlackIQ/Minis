@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>IP</title>
-    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="../bootstrap.css" />
     <style>
         body {
             text-align: center;

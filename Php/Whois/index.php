@@ -362,7 +362,7 @@ function QueryWhoisServer($whoisserver, $domain) {
     <head>
         <title>Whois</title>
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">    
-        <link rel="stylesheet" href="bootstrap.css" />
+        <link rel="stylesheet" href="../bootstrap.css" />
         <style>
             body {
                 text-align: center;
