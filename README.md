@@ -1,6 +1,6 @@
 # Minis !
 
-Mini projects in some languages that you can use them .
+Mini projects in multiple languages that you can use.
 
 ---
 
@@ -14,7 +14,7 @@ Mini projects in some languages that you can use them .
 
 ---
 
-##### Contribute and add mini projects that you wrote
+##### Contribute or share your own mini projects
 
-THanks .
-Amir .
+Thanks, 
+Amir
