@@ -11,6 +11,7 @@ Mini projects in multiple languages that you can use.
 - [Java](/Java)
 - [Js](/Js)
 - [Php](/Php)
+- [HTML/CSS](/HTML%3ACSS/)
 
 ---
 
