@@ -13,7 +13,6 @@ package com.BlackIQ.calculator;
  */
 
 import java.util.Scanner;
-import java.io.*;
 
 public class Main {
 
@@ -37,20 +36,7 @@ public class Main {
         int min = number1 - number2;
         int mul = number1 * number2;
         int div = number1 / number2;
-        int base = number1;
-        int power = number2;
-        int result = 1;
-        
-        // running loop while the power > 0
-        while (power != 0) 
-        {
-            result = result * base;
-            // power will get reduced after
-            // each multiplication
-            power--;
-        }
 
-        System.out.println("Result =  " + result);
         System.out.println("Number1 + Number2 = " + plus + " => " + number1 + " + " + number2 + " = " + plus + "\n");
 
         System.out.println("Number1 - Number2 = " + min + " => " + number1 + " - " + number2 + " = " + min + "\n");
@@ -58,7 +44,5 @@ public class Main {
         System.out.println("Number1 * Number2 = " + mul + " => " + number1 + " * " + number2 + " = " + mul + "\n");
 
         System.out.println("Number1 / Number2 = " + div + " => " + number1 + " / " + number2 + " = " + div + "\n");
-
-        System.out.println("Number1 to the power of Number2 = " + result + " => " + number1 + " ^ " + number2 + " = " + result + "\n");
     }
 }
