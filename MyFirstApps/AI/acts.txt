@@ -1,7 +1,0 @@
-date and time
-
-date
-
-time
-
-calculator

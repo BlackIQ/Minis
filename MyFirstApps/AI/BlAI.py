@@ -1,3 +1,0 @@
-from AI import *
-
-AI()
