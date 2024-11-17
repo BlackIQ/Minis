@@ -2,13 +2,14 @@ A simple App For Manage Files
 
 
 # How Work's:
-this app is for managing your files - imagine you have lot's of file in a directory with diffrent types. app manage all files For you immediately 
+This app is creat to solve biggest problem the compture users have (spaicly developers).
+It's managing your hole files, for exemple imagine you have lots of files in a directory with different types. This app manage all files for you immediately without Intervention from you for saving Time and Effort.
 
+How it's Work?
 
-app create Folder For each File(Extension of each file) and move each file to their extension Folder 
+- App  will be create Folder for each File (Extension of each file) and move each file to their extension Folder.
 
 <br>
-
 for example:
 <br>
 when Run app in folder with this contents:
