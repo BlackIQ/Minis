@@ -6,36 +6,39 @@
         <meta charset="utf-8">
         <title>Date</title>
         <link rel="stylesheet" href="../bootstrap.min.css" />
-        <style>
-            /* Fonts */
-            @font-face {
-                font-family: date;
-                src: url(date.ttf);
+        <link rel="stylesheet" href="style.css" />
+
+        <script>
+            function startTime() {
+                const now = new Date();
+    
+                const hours = now.getHours().toString().padStart(2, '0');
+                const minutes = now.getMinutes().toString().padStart(2, '0');
+                const seconds = now.getSeconds().toString().padStart(2, '0');
+                const time = `${hours}:${minutes}:${seconds}`;
+    
+                const day = now.getDate().toString().padStart(2, '0');
+                const month = (now.getMonth() + 1).toString().padStart(2, '0'); 
+                const year = now.getFullYear();
+                const date = `${day}-${month}-${year}`;
+    
+                document.getElementById("time").textContent = time;
+                document.getElementById("date").textContent = date;
+    
+                setTimeout(startTime, 1000);
             }
-            #date {
-                font-family: 'date';
-                color: #31708f;
-            }
-            body {
-                text-align: center;
-                margin-top: 100px;
-                background-color: #f1f1f1;
-            }
-            .form {
-                margin: auto;
-                width: 500px;
-                height: 250px;
-            }
-        </style>
+        </script>
+
 	</head>
 	<body onload="startTime()">
     <div class="form">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title">Date</h4>
+                <h4 class="modal-title">Date and time</h4>
             </div>
             <div class="modal-body">
                 <h1 id='date'></h1>
+                <h1 id='time'></h1>
             </div>
         </div>
     </div>
