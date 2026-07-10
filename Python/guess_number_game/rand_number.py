@@ -35,7 +35,7 @@ def game(computer, range):
 #### MAIN ####
 def simple_game():
     bad = True
-    while bad == True:
+    while bad:
         print("Type computer or manual: ")
         computer = input()
         
